@@ -1,0 +1,6 @@
+JMH S 21 site.zfei.demo.Client S 52 site.zfei.demo.generated.Client_addByHashMap_jmhTest S 12 addByHashMap S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E U 12 MILLISECONDS E E 
+JMH S 21 site.zfei.demo.Client S 52 site.zfei.demo.generated.Client_addByHashMap_jmhTest S 12 addByHashMap S 11 AverageTime E A 1 1 1 E E E E E E E E E E E E E E U 12 MILLISECONDS E E 
+JMH S 21 site.zfei.demo.Client S 52 site.zfei.demo.generated.Client_addByHashMap_jmhTest S 12 addByHashMap S 10 SampleTime E A 1 1 1 E E E E E E E E E E E E E E U 12 MILLISECONDS E E 
+JMH S 21 site.zfei.demo.Client S 62 site.zfei.demo.generated.Client_addByConcurrentHashMap_jmhTest S 22 addByConcurrentHashMap S 11 AverageTime E A 1 1 1 E E E E E E E E E E E E E E U 12 MILLISECONDS E E 
+JMH S 21 site.zfei.demo.Client S 62 site.zfei.demo.generated.Client_addByConcurrentHashMap_jmhTest S 22 addByConcurrentHashMap S 10 SampleTime E A 1 1 1 E E E E E E E E E E E E E E U 12 MILLISECONDS E E 
+JMH S 21 site.zfei.demo.Client S 62 site.zfei.demo.generated.Client_addByConcurrentHashMap_jmhTest S 22 addByConcurrentHashMap S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E U 12 MILLISECONDS E E 
