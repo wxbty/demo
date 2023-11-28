@@ -10,7 +10,7 @@ public class Client {
         for (int i = 0; i < 10000; i++) {
             map.put("key" + i, i);
             try {
-                Thread.sleep(20);
+                Thread.sleep(1);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
