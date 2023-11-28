@@ -9,6 +9,11 @@ public class Client {
         Map<String, Integer> map = new ConcurrentHashMap<>();
         for (int i = 0; i < 10000; i++) {
             map.put("key" + i, i);
+            try {
+                Thread.sleep(20);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
         }
         System.out.println("use concurrentHashMap");
     }
