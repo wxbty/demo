@@ -7,7 +7,7 @@ public class Client {
 
     public void addByMap() {
         Map<String, Integer> map = new HashMap<>();
-        for (int i = 0; i < 3000; i++) {
+        for (int i = 0; i < 4000; i++) {
             map.put("key" + i, i);
             try {
                 Thread.sleep(1);
