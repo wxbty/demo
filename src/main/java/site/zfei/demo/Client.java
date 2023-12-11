@@ -1,12 +1,12 @@
 package site.zfei.demo;
 
+import java.util.HashMap;
 import java.util.Map;
-import java.util.concurrent.ConcurrentHashMap;
 
 public class Client {
 
     public void addByMap() {
-        Map<String, Integer> map = new ConcurrentHashMap<>();
+        Map<String, Integer> map = new HashMap<>();
         for (int i = 0; i < 3000; i++) {
             map.put("key" + i, i);
             try {
